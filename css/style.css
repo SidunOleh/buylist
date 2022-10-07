@@ -1,0 +1,25 @@
+.no {
+    z-index: -1;
+}
+
+.delete {
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.errors p {
+    color: rgb(235, 136, 136)
+}
+
+.buys__list li * {
+    flex-basis: 20%;
+}
+
+@media (max-width: 1054px) {
+    .buys__list li {
+        flex-direction: column !important;
+    }
+    .buys__list li * {
+        margin-bottom: 5px;
+    }
+}
