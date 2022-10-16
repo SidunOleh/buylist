@@ -7,7 +7,7 @@ class Category_model extends CI_Model
 
     public function index()
     {
-        $result = $this->db->order_by('id', 'DESC')->get('categories');
+        $result = $this->db->get('categories');
         
         return $result->custom_result_object('Category_model');
     }
